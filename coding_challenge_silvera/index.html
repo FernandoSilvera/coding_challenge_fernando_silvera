@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Coding Challenge</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+    <!-- open general container -->
+    <div class="container">
+      <header>
+        <img src="images/logo.png" alt="lim logo">
+        <h1>Taking Booleaners from A to B</h1>
+        <nav class="green">
+          <button type="button" name="book">Prenota</button>
+          <button type="button" name="close">Termina Prenotazione</button>
+          <button type="button" name="lights">Accendi Luci</button>
+        </nav>
+      </header>
+
+      <!-- main content -->
+      <main>
+        <!-- first scooter -->
+        <section>
+          <input type="checkbox" name="first-scooter">
+          <h2>Monopattino Gino22</h2>
+          <div class="street">
+            Via Guadalametri - a 220 metri da te
+          </div>
+          <div>
+            Stato carica:
+            <div class="charge" id="charge-gino22"></div>
+          </div>
+        </section>
+
+        <!-- second scooter -->
+        <section>
+          <input type="checkbox" name="second-scooter">
+          <h2>Monopattino Mike24</h2>
+          <div class="street">
+            Via Ricciardoni - a 420 metri da te
+          </div>
+          <div>
+            Stato carica:
+            <div class="charge green" id="charge-mike24"></div>
+          </div>
+        </section>
+
+        <!-- third scooter -->
+        <section>
+          <input type="checkbox" name="third-scooter">
+          <h2>Monopattino Fede154</h2>
+          <div class="street">
+            Via Mentarini - a 490 metri da te
+          </div>
+          <div>
+            Stato carica:
+            <div class="charge" id="charge-fede154"></div>
+          </div>
+        </section>
+      </main>
+      <!-- close main content -->
+    </div>
+    <!-- close general container -->
+  </body>
+</html>
